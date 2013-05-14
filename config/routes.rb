@@ -1,4 +1,14 @@
 Memdir::Application.routes.draw do
+  resources :emergency_contacts
+
+  resources :addresses
+
+  resources :phones
+
+  resources :emails
+
+  resources :members
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

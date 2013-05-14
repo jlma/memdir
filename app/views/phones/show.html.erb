@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Fkmemberid:</strong>
+  <%= @phone.fkMemberID %>
+</p>
+
+<p>
+  <strong>Whichphone:</strong>
+  <%= @phone.whichPhone %>
+</p>
+
+<p>
+  <strong>Phonenumber:</strong>
+  <%= @phone.phoneNumber %>
+</p>
+
+<%= link_to 'Edit', edit_phone_path(@phone) %> |
+<%= link_to 'Back', phones_path %>

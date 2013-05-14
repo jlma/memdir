@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  fkMemberID: 1
+  whichPhone: MyString
+  phoneNumber: MyString
+
+two:
+  fkMemberID: 1
+  whichPhone: MyString
+  phoneNumber: MyString

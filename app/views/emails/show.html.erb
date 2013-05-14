@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Fkmemberid:</strong>
+  <%= @email.fkMemberID %>
+</p>
+
+<p>
+  <strong>Emailaddress:</strong>
+  <%= @email.emailAddress %>
+</p>
+
+<p>
+  <strong>Emailwho:</strong>
+  <%= @email.emailWho %>
+</p>
+
+<%= link_to 'Edit', edit_email_path(@email) %> |
+<%= link_to 'Back', emails_path %>
